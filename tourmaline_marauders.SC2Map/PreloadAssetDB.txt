@@ -1,3 +1,10 @@
+[Abil]
+id=StimpackMarauder
+asset=Assets\Textures\WayPointLine.dds
+asset=Assets\UI\Cursors\WayPointAttack_Void\WayPointAttack_Void.m3
+Actor=CommandUIHarnessAttackProtoss,CommandUIHarnessAttackTerran,CommandUIHarnessAttackZerg,CommandUIHarnessConfirmProtoss,CommandUIHarnessConfirmTerran,CommandUIHarnessConfirmZerg,CommandUIHarnessMoveProtoss,CommandUIHarnessMoveTerran,CommandUIHarnessMoveZerg,CommandUIHarnessRallyProtoss,CommandUIHarnessRallyTerran,CommandUIHarnessRallyZerg,Marauder_Stimpack,StimpackStartImpact,TerrainMgr
+Effect=Stimpack,##id##
+
 [Light]
 id=Endion
 asset=Assets\Textures\pbrreflect_belshir.dds

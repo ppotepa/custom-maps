@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CAbilEffectInstant id="StimpackMarauder">
+        <Cost index="0">
+            <Vital index="Life" value="10"/>
+        </Cost>
+    </CAbilEffectInstant>
+</Catalog>
