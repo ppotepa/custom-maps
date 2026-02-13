@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CLight id="ElsecaroShower">
+        <ToDInfoArray index="0" Id="ElsecaroShower" AmbientColor="0.368627,0.364706,0.321569" AmbientEnvironmentMultiplier="0.000000">
+            <Param index="HDRExposure" value="1.500000"/>
+            <Param index="TerrainSpecularExp" value="11.000000"/>
+            <Param index="TerrainHDRSpecular" value="3.000000"/>
+            <Param index="ColorizationOutputLow" value="0.000000"/>
+            <Param index="ColorizationBrightness" value="1.000000"/>
+            <Param index="ColorizationContrast" value="1.033000"/>
+            <Param index="ColorizationHue" value="0.124000"/>
+            <Param index="ColorizationSaturation" value="0.126000"/>
+            <Param index="ColorizationLightness" value="0.110000"/>
+            <Param index="ColorizationBlend" value="0.156000"/>
+            <Param index="AOOcclusionRadius" value="0.000000"/>
+            <Param index="AONoOcclusion" value="0.000000"/>
+            <Param index="AOOcclusionPower" value="0.000000"/>
+            <Param index="AODetailOcclusionRadius" value="0.000000"/>
+            <Param index="AODetailNoOcclusion" value="0.000000"/>
+            <Param index="AODetailOcclusionPower" value="0.000000"/>
+            <DirectionalLight index="Key">
+                <Color value="1.000000,1.000000,0.941177"/>
+                <ColorMultiplier value="1.148000"/>
+                <SpecularColor value="0.921569,0.709804,0.576471"/>
+                <SpecColorMultiplier value="1.000000"/>
+                <Direction value="0.465549,-0.548374,-0.694659"/>
+            </DirectionalLight>
+            <DirectionalLight index="Fill" Color="0.831373,0.674510,0.537255" ColorMultiplier="1.023000" Direction="-0.640331,-0.406523,-0.651702"/>
+            <DirectionalLight index="Back" Color="0.301961,0.447059,0.600000" ColorMultiplier="0.191000" Direction="-0.177472,0.365976,-0.913545"/>
+        </ToDInfoArray>
+        <AmbientEnvironmentMap value="Assets\Textures\pbrreflect_belshir.dds"/>
+    </CLight>
+    <CLight id="Endion">
+        <ToDInfoArray index="0" AmbientEnvironmentMultiplier="0.437000" OperatorHDR="0">
+            <Param index="HDRWhitePoint" value="1.700000"/>
+            <Param index="HDRSpecMultiplier" value="1.400000"/>
+            <Param index="HDREmisMultiplier" value="1.300000"/>
+            <Param index="TerrainHDRDiffuse" value="1.200000"/>
+            <Param index="TerrainHDRSpecular" value="2.500000"/>
+            <DirectionalLight index="Key" SpecularColor="0.886275,0.713726,0.541176" Direction="0.222164,-0.603174,-0.766044"/>
+        </ToDInfoArray>
+        <AmbientEnvironmentMap value="Assets\Textures\pbrreflect_belshir.dds"/>
+    </CLight>
+    <CLight id="EndionAiurProtoss">
+        <ToDInfoArray index="0" Id="EndionAiurProtoss"/>
+    </CLight>
+</Catalog>

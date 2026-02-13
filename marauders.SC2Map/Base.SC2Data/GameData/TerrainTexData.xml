@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CTerrainTex id="AiurCity4">
+        <HeightMapOffset value="0.010000"/>
+        <HeightMapScale value="1.000000"/>
+    </CTerrainTex>
+    <CTerrainTex id="DefendersCity_7">
+        <Normalmap value="Assets\Textures\slayngrass_1normal.dds"/>
+        <HeightMapScale value="25.000000"/>
+    </CTerrainTex>
+    <CTerrainTex id="ElsecaroCity2">
+        <Texture value="Assets\Textures\endion_2.dds"/>
+    </CTerrainTex>
+    <CTerrainTex id="VolcanoIsle_4">
+        <Normalmap value="Assets\Textures\korhalwastes_5normal.dds"/>
+    </CTerrainTex>
+</Catalog>

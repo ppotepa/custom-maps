@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Catalog>
-    <CRequirement id="UseStimpack2">
-        <EditorCategories value="Race:Terran,TechType:Ability"/>
-        <NodeArray index="Use" Link="CountUpgradeStimpackQueuedOrBetter2"/>
-    </CRequirement>
-</Catalog>

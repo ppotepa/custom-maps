@@ -1,0 +1,7 @@
+﻿DocInfo/DescLong=Reflection symmetry map with two distinct areas of the map: top left and bottom right. A pathway out of the natural base splits into these two directions, creating a choice in expansion direction, counter attack paths, and army positioning.<n/><n/>by monitor
+DocInfo/DescShort=2
+DocInfo/Name=Tourmaline LE
+MapInfo/Player00/Name=Neutral
+MapInfo/Player01/Name=Player 1
+MapInfo/Player02/Name=Player 2
+MapInfo/Player03/Name=Hostile

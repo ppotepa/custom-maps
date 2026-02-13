@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Catalog>
+    <CModel id="TempleStoneInlay">
+        <Model value="Assets\Effects\Protoss\ProtossSummoning\ProtossSummoning.m3"/>
+        <ScaleMax value="0.750000,0.750000,0.750000"/>
+        <ScaleMin value="0.750000,0.750000,0.750000"/>
+    </CModel>
+</Catalog>
