@@ -2,5 +2,6 @@
 <Catalog>
     <CEffectApplyBehavior id="Stimpack2">
         <EditorCategories value="Race:Terran"/>
+        <Behavior value="Stimpack"/>
     </CEffectApplyBehavior>
 </Catalog>

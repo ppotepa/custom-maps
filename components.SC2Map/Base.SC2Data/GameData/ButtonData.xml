@@ -25,5 +25,6 @@
         <AlertIcon value="icons\btn-ability-terran-stimpack-color-10hp.dds"/>
         <EditorCategories value="Race:Terran"/>
         <Universal value="1"/>
+        <Hotkey value="W"/>
     </CButton>
 </Catalog>

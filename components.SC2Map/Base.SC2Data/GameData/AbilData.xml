@@ -70,7 +70,7 @@
             <Cooldown TimeUse="1"/>
         </Cost>
         <AINotifyEffect value="Stimpack"/>
-        <CmdButtonArray index="Execute" DefaultButtonFace="Stim" Requirements="UseStimpack">
+        <CmdButtonArray index="Execute" DefaultButtonFace="Stim2" Requirements="UseStimpack">
             <Flags index="ToSelection" value="1"/>
         </CmdButtonArray>
     </CAbilEffectInstant>

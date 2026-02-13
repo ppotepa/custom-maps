@@ -112,6 +112,12 @@
             <LayoutButtons Face="Stim2" Type="AbilCmd" AbilCmd="Stimpack2,Execute" Row="2" Column="2"/>
         </CardLayouts>
     </CUnit>
+    <CUnit id="Marine" parent="Marine">
+        <AbilArray Link="Stimpack2"/>
+        <CardLayouts index="0">
+            <LayoutButtons Face="Stim2" Type="AbilCmd" AbilCmd="Stimpack2,Execute" Row="2" Column="2"/>
+        </CardLayouts>
+    </CUnit>
     <CUnit id="MineralField">
         <PlacementFootprint value="FootprintMineralsRounded"/>
     </CUnit>

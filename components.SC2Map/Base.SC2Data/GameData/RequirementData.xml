@@ -2,6 +2,6 @@
 <Catalog>
     <CRequirement id="UseStimpack2">
         <EditorCategories value="Race:Terran,TechType:Ability"/>
-        <NodeArray index="Use" Link="CountUpgradeStimpackCompleteOnly80611996TechTreeCheat"/>
+        <NodeArray index="Use" Link="CountUpgradeStimpackQueuedOrBetter2"/>
     </CRequirement>
 </Catalog>

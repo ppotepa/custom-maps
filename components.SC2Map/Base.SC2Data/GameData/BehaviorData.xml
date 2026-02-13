@@ -2,7 +2,7 @@
 <Catalog>
     <CBehaviorBuff id="Stimpack2">
         <Alignment value="Positive"/>
-        <InfoIcon value="Assets\Textures\btn-ability-terran-stimpack.dds"/>
+        <InfoIcon value="icons\btn-ability-terran-stimpack-color-10hp.dds"/>
         <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
         <Duration value="15"/>
         <Modification MoveSpeedMultiplier="1.5" AttackSpeedMultiplier="1.5"/>
