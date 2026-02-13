@@ -1,17 +1,24 @@
 ﻿Abil/Name/CustomBuild=Custom Build
+Abil/Name/Stimpack2=Marauder 10 HP  Stim
+Abil/Name/StimpackRedirect2=Stimpack Redirect
+Behavior/Name/Stimpack2=Marauder - 10 Hp
+Behavior/Tooltip/Stimpack2=This unit moves and attacks more quickly while under the effects of Stimpack.
 Button/Name/BuildDestructibleRock=Build Destructible Rock
 Button/Name/BuildMineralField=Build Mineral Field
 Button/Name/BuildNeutralSupplyDepot=Build Neutral Supply Depot
 Button/Name/BuildVespeneGeyser=Build Vespene Geyser
 Button/Name/BuildXelNagaTower=Build Xel'naga Tower
+Button/Name/Stim2=Use Stimpack 10 HP
 Button/Tooltip/BuildDestructibleRock=Destructible Rocks are neutral structures placed on maps usually to initially block paths or expansion areas. 
 Button/Tooltip/BuildNeutralSupplyDepot=Neutral supply depots are used to prevent offensive ramp blocks.
 Button/Tooltip/BuildXelnagaTower=Creates a neutral Xel'Naga Tower.  Xel'Naga Towers provide vision to nearby units.
 Button/Tooltip/CreepTumor2=A burrowed creep generator. Creep feeds nearby Zerg structures. A Creep Tumor can spawn one additional Creep Tumor.<n/><n/><c val="#ColorAttackInfo">Bonus: Zerg move faster on creep.</c>
+Button/Tooltip/Stim2=Injects the unit with powerful stimulants that greatly increase attack and movement speeds for a few seconds. Injures the unit for 10 of the unit's life.
 DocInfo/Author=Killer
 DocInfo/DescLong=Unit tester for one or two players.  Easy to use unit creator, resource spending tracker, different arenas, and many options. Compare unit compositions and costs, or practice your micro with friends.<n/><n/>modified by Brandon<n/>WoL version by Killer and modified by Hunter
 DocInfo/DescShort=Unit tester for one or two players.
 DocInfo/Name=LOTV Unit Tester Online
+Effect/Name/Stimpack2=Stim Pack (Apply Buff)
 LoadingScreen/Subtitle=LotV Edition
 LoadingScreen/TextBody=<s val="StandardTooltipHeader">Description</s><n/>Unit tester for one or two players.  Easy to use unit creator, resource spending tracker, different arenas, and many options. Compare unit compositions and costs, or practice your micro with friends<n/></n><s val="StandardTooltipHeader">Instructions</s><n/>To create units:<n/><c val="00FFFF">Click</c> an icon to create one unit<n/><c val="00FFFF">Shift</c> + <c val="00FFFF">click</c> to create five units<n/><c val="00FFFF">Backspace</c> will delete selected units<n/><n/>To research upgrades:<n/><c val="00FFFF">Click twice</c> on the Protoss, Terran, or Zerg icon<n/>To enable an upgrade, click any colored upgrade<n/>To disable an upgrade, click any grayed-out upgrade</n></n>To construct structures:<n/><c val="00FFFF">Select </c>the appropriate builder (large Probe, SCV, or Drone) from the area on the right</n></n></n><s val="StandardButton">modified by Brandon<n/>WoL versionl by XGDragon. modified by hunter.</s>
 LoadingScreen/Title=Unit Tester Online
@@ -300,6 +307,7 @@ Param/Value/FE9D71E9=
 Param/Value/FF76445C=Single player mode
 Param/Value/FF80A37A=...</s>
 Unit/Name/Drone2=Zerg Builder
+Unit/Name/Marauder2=Marine
 Unit/Name/Probe2=Protoss Builder
 Unit/Name/SCV2=Terran Builder
 Variant001/CategoryDesc=All settings may be customized.

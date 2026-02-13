@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Catalog>
     <CAbilBuild id="CustomBuild">
         <EditorCategories value="AbilityorEffectType:Units"/>
@@ -58,4 +58,27 @@
         <BuildMorphAbil value="CustomBuild"/>
         <Alignment value="Positive"/>
     </CAbilBuild>
+    <CAbilEffectInstant id="Stimpack2">
+        <AbilSetId value="Stimpack"/>
+        <EditorCategories value="Race:Terran,AbilityorEffectType:Units"/>
+        <InfoTooltipPriority value="1"/>
+        <DataCollection value="Stimpack"/>
+        <Effect index="0" value="Stimpack"/>
+        <Flags index="Transient" value="1"/>
+        <Cost>
+            <Vital index="Life" value="10"/>
+            <Cooldown TimeUse="1"/>
+        </Cost>
+        <AINotifyEffect value="Stimpack"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="Stim" Requirements="UseStimpack">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilEffectInstant>
+    <CAbilRedirectInstant id="StimpackRedirect2">
+        <AbilSetId value="Stimpack"/>
+        <Abil value="Stimpack2"/>
+        <CmdButtonArray index="Execute" DefaultButtonFace="StimRedirect" Requirements="UseStimpack">
+            <Flags index="ToSelection" value="1"/>
+        </CmdButtonArray>
+    </CAbilRedirectInstant>
 </Catalog>

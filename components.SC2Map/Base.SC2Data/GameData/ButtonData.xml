@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Catalog>
     <CButton id="BuildDestructibleRock">
         <Icon value="Assets\Textures\wireframe-general-destructiblerocks-8x8.dds"/>
@@ -19,5 +19,11 @@
         <AlertTooltip value="Button/Tooltip/BuildXelNagaTower"/>
         <AlertIcon value="Assets\Textures\wireframe-general-xelnagatower.dds"/>
         <HotkeyAlias value=""/>
+    </CButton>
+    <CButton id="Stim2">
+        <Icon value="icons\btn-ability-terran-stimpack-color-10hp.dds"/>
+        <AlertIcon value="icons\btn-ability-terran-stimpack-color-10hp.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <Universal value="1"/>
     </CButton>
 </Catalog>

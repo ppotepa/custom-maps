@@ -1,0 +1,2 @@
+﻿Button/Hotkey/BuildXelnagaTower=
+Button/Hotkey/Stim2=W
